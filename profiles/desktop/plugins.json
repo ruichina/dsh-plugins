@@ -1,0 +1,300 @@
+{
+  "plugins": {
+    "billion-context": {
+      "builtIn": false,
+      "displayName": "billion-context",
+      "enabled": true,
+      "id": "billion-context",
+      "installSpec": "billion-context@0.1.216",
+      "name": "billion-context",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:bili-native",
+          "moduleName": "billion-context",
+          "rowId": "bili-native"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:bili-compaction-gate",
+          "moduleName": "billion-context/dsh-compaction-gate",
+          "rowId": "bili-compaction-gate"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-24T01:59:44.003Z",
+      "updatedBy": "dev-32f872d0c76c3bf2",
+      "version": "0.1.216"
+    },
+    "brooks-lint": {
+      "builtIn": false,
+      "displayName": "brooks-lint",
+      "enabled": true,
+      "id": "brooks-lint",
+      "installSpec": "brooks-lint@2.0.0",
+      "name": "brooks-lint",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:brooks-lint-skills",
+          "moduleName": "brooks-lint",
+          "rowId": "brooks-lint-skills"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-24T01:59:44.003Z",
+      "updatedBy": "dev-32f872d0c76c3bf2",
+      "version": "2.0.0"
+    },
+    "dsh-at-file": {
+      "builtIn": false,
+      "displayName": "dsh-at-file",
+      "enabled": true,
+      "id": "dsh-at-file",
+      "installSpec": "dsh-at-file@0.6.3",
+      "name": "dsh-at-file",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-at-file",
+          "moduleName": "dsh-at-file",
+          "rowId": "dsh-at-file"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-24T01:59:44.003Z",
+      "updatedBy": "dev-32f872d0c76c3bf2",
+      "version": "0.6.3"
+    },
+    "dsh-better-sidebar": {
+      "builtIn": false,
+      "displayName": "Better Sidebar",
+      "enabled": true,
+      "id": "dsh-better-sidebar",
+      "installSpec": "dsh-better-sidebar@0.32.1",
+      "name": "dsh-better-sidebar",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:better-sidebar",
+          "moduleName": "dsh-better-sidebar",
+          "rowId": "better-sidebar"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-24T01:59:44.003Z",
+      "updatedBy": "dev-32f872d0c76c3bf2",
+      "version": "0.32.1"
+    },
+    "dsh-context": {
+      "builtIn": false,
+      "displayName": "Context (dsh-context)",
+      "enabled": true,
+      "id": "dsh-context",
+      "installSpec": "dsh-context@0.87.1",
+      "name": "dsh-context",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-context",
+          "moduleName": "dsh-context",
+          "rowId": "dsh-context"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-24T01:59:44.003Z",
+      "updatedBy": "dev-32f872d0c76c3bf2",
+      "version": "0.87.1"
+    },
+    "dsh-ego-browser": {
+      "builtIn": false,
+      "displayName": "dsh-ego-browser",
+      "enabled": true,
+      "id": "dsh-ego-browser",
+      "installSpec": "git+https://github.com/Fisfzy/dsh-ego-browser.git",
+      "name": "dsh-ego-browser",
+      "origin": "git",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:ego-browser",
+          "moduleName": "dsh-ego-browser",
+          "rowId": "ego-browser"
+        }
+      ],
+      "source": "git+https://github.com/Fisfzy/dsh-ego-browser.git",
+      "syncable": true,
+      "updatedAt": "2026-11-24T01:59:44.003Z",
+      "updatedBy": "dev-32f872d0c76c3bf2",
+      "version": "0.15.2"
+    },
+    "dsh-git-scm": {
+      "builtIn": false,
+      "displayName": "Git Source Control",
+      "enabled": true,
+      "id": "dsh-git-scm",
+      "installSpec": "dsh-git-scm@0.4.1",
+      "name": "dsh-git-scm",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-git-scm",
+          "moduleName": "dsh-git-scm",
+          "rowId": "dsh-git-scm"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-24T01:59:44.003Z",
+      "updatedBy": "dev-32f872d0c76c3bf2",
+      "version": "0.4.1"
+    },
+    "dsh-git-workbench": {
+      "builtIn": false,
+      "displayName": "dsh-git-workbench",
+      "enabled": true,
+      "id": "dsh-git-workbench",
+      "installSpec": "dsh-git-workbench@0.3.4",
+      "name": "dsh-git-workbench",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-git-workbench",
+          "moduleName": "dsh-git-workbench",
+          "rowId": "dsh-git-workbench"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-24T01:59:44.003Z",
+      "updatedBy": "dev-32f872d0c76c3bf2",
+      "version": "0.3.4"
+    },
+    "dsh-ops": {
+      "builtIn": false,
+      "displayName": "dsh-ops",
+      "enabled": true,
+      "id": "dsh-ops",
+      "installSpec": "dsh-ops@0.5.5",
+      "name": "dsh-ops",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-ops",
+          "moduleName": "dsh-ops",
+          "rowId": "dsh-ops"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-24T01:59:44.003Z",
+      "updatedBy": "dev-32f872d0c76c3bf2",
+      "version": "0.5.5"
+    },
+    "dsh-rewind-plugin": {
+      "builtIn": false,
+      "displayName": "Conversation rewind",
+      "enabled": true,
+      "id": "dsh-rewind-plugin",
+      "installSpec": "dsh-rewind-plugin@0.24.0",
+      "name": "dsh-rewind-plugin",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-rewind-plugin",
+          "moduleName": "dsh-rewind-plugin",
+          "rowId": "dsh-rewind-plugin"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-24T01:59:44.003Z",
+      "updatedBy": "dev-32f872d0c76c3bf2",
+      "version": "0.24.0"
+    },
+    "dsh-session-delete-pro": {
+      "builtIn": false,
+      "displayName": "Session delete",
+      "enabled": true,
+      "id": "dsh-session-delete-pro",
+      "installSpec": "dsh-session-delete-pro@1.0.6",
+      "name": "dsh-session-delete-pro",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:session-delete",
+          "moduleName": "dsh-session-delete-pro",
+          "rowId": "session-delete"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-24T01:59:44.003Z",
+      "updatedBy": "dev-32f872d0c76c3bf2",
+      "version": "1.0.6"
+    },
+    "dsh-win-pwsh7": {
+      "builtIn": false,
+      "displayName": "PowerShell 7 for Windows",
+      "enabled": true,
+      "id": "dsh-win-pwsh7",
+      "installSpec": "dsh-win-pwsh7@0.3.0",
+      "name": "dsh-win-pwsh7",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:win-pwsh7",
+          "moduleName": "dsh-win-pwsh7",
+          "rowId": "win-pwsh7"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-24T01:59:44.003Z",
+      "updatedBy": "dev-32f872d0c76c3bf2",
+      "version": "0.3.0"
+    },
+    "dshmarket": {
+      "builtIn": false,
+      "displayName": "dshmarket",
+      "enabled": true,
+      "id": "dshmarket",
+      "installSpec": "dshmarket@1.80.1",
+      "name": "dshmarket",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-market",
+          "moduleName": "dshmarket",
+          "rowId": "dsh-market"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-24T01:59:44.003Z",
+      "updatedBy": "dev-32f872d0c76c3bf2",
+      "version": "1.80.1"
+    }
+  },
+  "profile": "desktop",
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-24T01:59:44.004Z"
+}

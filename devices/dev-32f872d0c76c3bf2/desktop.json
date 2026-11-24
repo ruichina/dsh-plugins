@@ -1,0 +1,506 @@
+{
+  "device": {
+    "arch": "x64",
+    "dshVersion": "0.2.2-rc.5",
+    "id": "dev-32f872d0c76c3bf2",
+    "name": "wangzr",
+    "platform": "win32",
+    "pluginVersion": "0.2.13"
+  },
+  "plugins": [
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "billion-context",
+      "enabled": true,
+      "id": "billion-context",
+      "installSpec": "billion-context@0.1.216",
+      "name": "billion-context",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:bili-native",
+          "moduleName": "billion-context",
+          "rowId": "bili-native"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:bili-compaction-gate",
+          "moduleName": "billion-context/dsh-compaction-gate",
+          "rowId": "bili-compaction-gate"
+        }
+      ],
+      "syncable": true,
+      "version": "0.1.216"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "brooks-lint",
+      "enabled": true,
+      "id": "brooks-lint",
+      "installSpec": "brooks-lint@2.0.0",
+      "name": "brooks-lint",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:brooks-lint-skills",
+          "moduleName": "brooks-lint",
+          "rowId": "brooks-lint-skills"
+        }
+      ],
+      "syncable": true,
+      "version": "2.0.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "enabled": true,
+      "error": "no matching bundle metadata was found for this plugin entry",
+      "id": "cordis:include",
+      "installSpec": null,
+      "name": "cordis:include",
+      "origin": "unknown",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include",
+          "moduleName": "cordis:include"
+        }
+      ],
+      "syncable": false,
+      "version": null
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-at-file",
+      "enabled": true,
+      "id": "dsh-at-file",
+      "installSpec": "dsh-at-file@0.6.3",
+      "name": "dsh-at-file",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-at-file",
+          "moduleName": "dsh-at-file",
+          "rowId": "dsh-at-file"
+        }
+      ],
+      "syncable": true,
+      "version": "0.6.3"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Better Sidebar",
+      "enabled": true,
+      "id": "dsh-better-sidebar",
+      "installSpec": "dsh-better-sidebar@0.32.1",
+      "name": "dsh-better-sidebar",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:better-sidebar",
+          "moduleName": "dsh-better-sidebar",
+          "rowId": "better-sidebar"
+        }
+      ],
+      "syncable": true,
+      "version": "0.32.1"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Context (dsh-context)",
+      "enabled": true,
+      "id": "dsh-context",
+      "installSpec": "dsh-context@0.87.1",
+      "name": "dsh-context",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-context",
+          "moduleName": "dsh-context",
+          "rowId": "dsh-context"
+        }
+      ],
+      "syncable": true,
+      "version": "0.87.1"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-ego-browser",
+      "enabled": true,
+      "id": "dsh-ego-browser",
+      "installSpec": "git+https://github.com/Fisfzy/dsh-ego-browser.git",
+      "name": "dsh-ego-browser",
+      "origin": "git",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:ego-browser",
+          "moduleName": "dsh-ego-browser",
+          "rowId": "ego-browser"
+        }
+      ],
+      "source": "git+https://github.com/Fisfzy/dsh-ego-browser.git",
+      "syncable": true,
+      "version": "0.15.2"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Git Source Control",
+      "enabled": true,
+      "id": "dsh-git-scm",
+      "installSpec": "dsh-git-scm@0.4.1",
+      "name": "dsh-git-scm",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-git-scm",
+          "moduleName": "dsh-git-scm",
+          "rowId": "dsh-git-scm"
+        }
+      ],
+      "syncable": true,
+      "version": "0.4.1"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-git-workbench",
+      "enabled": true,
+      "id": "dsh-git-workbench",
+      "installSpec": "dsh-git-workbench@0.3.4",
+      "name": "dsh-git-workbench",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-git-workbench",
+          "moduleName": "dsh-git-workbench",
+          "rowId": "dsh-git-workbench"
+        }
+      ],
+      "syncable": true,
+      "version": "0.3.4"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-ops",
+      "enabled": true,
+      "id": "dsh-ops",
+      "installSpec": "dsh-ops@0.5.5",
+      "name": "dsh-ops",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-ops",
+          "moduleName": "dsh-ops",
+          "rowId": "dsh-ops"
+        }
+      ],
+      "syncable": true,
+      "version": "0.5.5"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Plugin Backup",
+      "enabled": true,
+      "id": "dsh-plugins-git-sync",
+      "installSpec": "dsh-plugins-git-sync@0.2.13",
+      "name": "dsh-plugins-git-sync",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-plugins-git-sync",
+          "moduleName": "dsh-plugins-git-sync",
+          "rowId": "dsh-plugins-git-sync"
+        }
+      ],
+      "syncable": false,
+      "version": "0.2.13"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Conversation rewind",
+      "enabled": true,
+      "id": "dsh-rewind-plugin",
+      "installSpec": "dsh-rewind-plugin@0.24.0",
+      "name": "dsh-rewind-plugin",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-rewind-plugin",
+          "moduleName": "dsh-rewind-plugin",
+          "rowId": "dsh-rewind-plugin"
+        }
+      ],
+      "syncable": true,
+      "version": "0.24.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Session delete",
+      "enabled": true,
+      "id": "dsh-session-delete-pro",
+      "installSpec": "dsh-session-delete-pro@1.0.6",
+      "name": "dsh-session-delete-pro",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:session-delete",
+          "moduleName": "dsh-session-delete-pro",
+          "rowId": "session-delete"
+        }
+      ],
+      "syncable": true,
+      "version": "1.0.6"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "PowerShell 7 for Windows",
+      "enabled": true,
+      "id": "dsh-win-pwsh7",
+      "installSpec": "dsh-win-pwsh7@0.3.0",
+      "name": "dsh-win-pwsh7",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:win-pwsh7",
+          "moduleName": "dsh-win-pwsh7",
+          "rowId": "win-pwsh7"
+        }
+      ],
+      "syncable": true,
+      "version": "0.3.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dshmarket",
+      "enabled": true,
+      "id": "dshmarket",
+      "installSpec": "dshmarket@1.80.1",
+      "name": "dshmarket",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-market",
+          "moduleName": "dshmarket",
+          "rowId": "dsh-market"
+        }
+      ],
+      "syncable": true,
+      "version": "1.80.1"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "@liustack/modlens",
+      "enabled": true,
+      "id": "local:@liustack/modlens",
+      "installSpec": null,
+      "name": "@liustack/modlens",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:modlens",
+          "moduleName": "@liustack/modlens",
+          "rowId": "modlens"
+        }
+      ],
+      "source": "@liustack/modlens@3.27.5",
+      "syncable": false,
+      "version": "3.27.5"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "@liustack/modsearch",
+      "enabled": true,
+      "id": "local:@liustack/modsearch",
+      "installSpec": null,
+      "name": "@liustack/modsearch",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:modsearch",
+          "moduleName": "@liustack/modsearch",
+          "rowId": "modsearch"
+        }
+      ],
+      "source": "@liustack/modsearch@5.10.14",
+      "syncable": false,
+      "version": "5.10.14"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "@vectorize-io/hindsight-coding-agents",
+      "enabled": true,
+      "id": "local:@vectorize-io/hindsight-coding-agents",
+      "installSpec": null,
+      "name": "@vectorize-io/hindsight-coding-agents",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:hindsight",
+          "moduleName": "@vectorize-io/hindsight-coding-agents/dsh",
+          "rowId": "hindsight"
+        }
+      ],
+      "source": "@vectorize-io/hindsight-coding-agents@0.8.8",
+      "syncable": false,
+      "version": "0.8.8"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "IM bots (dsh-im)",
+      "enabled": true,
+      "id": "local:@xmanrui/dsh-im",
+      "installSpec": null,
+      "name": "@xmanrui/dsh-im",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:xmanrui-dsh-im",
+          "moduleName": "@xmanrui/dsh-im",
+          "rowId": "xmanrui-dsh-im"
+        }
+      ],
+      "source": "@xmanrui/dsh-im@5.10.0",
+      "syncable": false,
+      "version": "5.10.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "@zilliz/memsearch-dsh",
+      "enabled": true,
+      "id": "local:@zilliz/memsearch-dsh",
+      "installSpec": null,
+      "name": "@zilliz/memsearch-dsh",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:memsearch",
+          "moduleName": "@zilliz/memsearch-dsh",
+          "rowId": "memsearch"
+        }
+      ],
+      "source": "@zilliz/memsearch-dsh@0.1.10",
+      "syncable": false,
+      "version": "0.1.10"
+    }
+  ],
+  "profile": "desktop",
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-24T01:59:44.003Z"
+}
